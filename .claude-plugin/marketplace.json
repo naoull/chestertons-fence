@@ -1,0 +1,32 @@
+{
+  "name": "chestertons-fence",
+  "owner": {
+    "name": "kibeom na",
+    "url": "https://github.com/naoull"
+  },
+  "version": "1.0.0",
+  "description": "Chesterton's Fence — a stack-agnostic Claude Code plugin that stops AI from removing the fence before it knows why the fence is there.",
+  "plugins": [
+    {
+      "name": "chestertons-fence",
+      "source": ".",
+      "version": "1.0.0",
+      "description": "A 6-step workflow (STOP → Identify → Investigate → Hypothesize → Decide → Document) that forces context-gathering (git blame, log, related code) before any deletion or refactor. Stack-agnostic — works on frontend, backend, infrastructure, schemas, migrations, and config. Based on G.K. Chesterton's 1929 parable.",
+      "author": {
+        "name": "kibeom na",
+        "url": "https://github.com/naoull"
+      },
+      "homepage": "https://github.com/naoull/chestertons-fence",
+      "license": "MIT",
+      "keywords": [
+        "claude-code",
+        "claude-code-plugin",
+        "code-review",
+        "refactoring",
+        "ai-safety",
+        "context-gathering",
+        "chestertons-fence"
+      ]
+    }
+  ]
+}

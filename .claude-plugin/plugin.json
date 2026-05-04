@@ -1,0 +1,23 @@
+{
+  "name": "chestertons-fence",
+  "version": "1.0.0",
+  "description": "Stop AI from removing the fence before it knows why the fence is there. A stack-agnostic 6-step workflow that forces context-gathering (git blame, log, related code) before any deletion or refactor — works on frontend, backend, infrastructure, schemas, migrations, and config. Based on G.K. Chesterton's 1929 parable.",
+  "author": {
+    "name": "kibeom na",
+    "url": "https://github.com/naoull"
+  },
+  "homepage": "https://github.com/naoull/chestertons-fence",
+  "repository": "https://github.com/naoull/chestertons-fence",
+  "bugs": "https://github.com/naoull/chestertons-fence/issues",
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "claude-code-plugin",
+    "code-review",
+    "refactoring",
+    "ai-safety",
+    "context-gathering",
+    "chestertons-fence",
+    "skill"
+  ]
+}
