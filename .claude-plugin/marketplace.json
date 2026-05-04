@@ -9,7 +9,7 @@
   "plugins": [
     {
       "name": "chestertons-fence",
-      "source": ".",
+      "source": "./",
       "version": "1.0.0",
       "description": "A 6-step workflow (STOP → Identify → Investigate → Hypothesize → Decide → Document) that forces context-gathering (git blame, log, related code) before any deletion or refactor. Stack-agnostic — works on frontend, backend, infrastructure, schemas, migrations, and config. Based on G.K. Chesterton's 1929 parable.",
       "author": {
